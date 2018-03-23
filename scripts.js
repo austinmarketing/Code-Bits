@@ -1,5 +1,8 @@
-// This code creates a sticky menu
-// Will need to change the query selectors when used to be specific to the website being built
+// This sheet can be used to store re-usable javascript code
+
+
+// this code creates a sticky menu
+// will need to change the query selectors when used to be specific to the website being built
 
 // calls our function when page is scrolled
 window.onscroll = function() {stickyFunction()};
