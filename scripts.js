@@ -1,4 +1,4 @@
-// This sheet can be used to store re-usable javascript code
+//*** Useful bits of JavaScript code ***//
 
 
 // this code creates a sticky menu
