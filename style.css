@@ -1,0 +1,7 @@
+/*** Useful bits of CSS code ***/
+
+/* removes <select> icons from Firefox browser */
+
+select {
+    -moz-appearance: none;
+}
