@@ -1,21 +1,20 @@
-/*
- * Underpants Scripts File
- *
- * This file should contain any js scripts you want to add to the site.
- * This file will be called automatically in the footer so as not to
- * slow the page load.
-*/
+// This code creates a sticky menu
+// Will need to change the query selectors when used to be specific to the website being built
 
- // sticky menu applies to both sites 
+// calls our function when page is scrolled
 window.onscroll = function() {stickyFunction()};
 
+// main variable which actions the scrolling function
 var header = document.querySelector(".main-menu");
 var sticky = header.offsetTop;
 
+// additional variable which may not be needed
 var content = document.querySelector("#content");
 
+// additional variable which may not be needed
 var main = document.querySelector("#menu-main-nav");
 
+// main function
 function stickyFunction() {
   if (window.pageYOffset >= sticky) {
 	  
@@ -32,18 +31,3 @@ function stickyFunction() {
   }
 }
 
-
-/*
- * Add your scripts here.
-*/
-
-
-
-/*
- * Put all your jQuery in here.
-*/
-/* jQuery(document).ready(function($) {
-
- 
-
-}); */
