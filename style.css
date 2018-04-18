@@ -5,3 +5,8 @@
 select {
     -moz-appearance: none;
 }
+
+/* keeps menu properties whilst hovering over submenu. Replace .nav-primary with your menu name */
+.nav-primary ul li:hover > a {
+  /* add original properties here */
+}
