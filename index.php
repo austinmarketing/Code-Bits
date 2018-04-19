@@ -24,4 +24,8 @@ class Walker_Nav_Pointers extends Walker_Nav_Menu
 <a href="<?php echo get_page_link(112); ?>"> // gets page permalink
 <?php if (has_post_thumbnail(112)): echo get_the_post_thumbnail(112, array(280,180), array('class' => 'post_thumbnail')); endif; ?> // gets thumbnail
 <p><?php echo get_post_field('post_content', 102); ?></p> // gets content
+    
+ // code to add excerpt from page
+    
+<?php echo get_post_meta($post_id, $key, 'meta_value'); ?>
 
