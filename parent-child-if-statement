@@ -1,0 +1,9 @@
+	// checks if page OR child of page is true. 
+					
+          <?php if ( is_page() || $post->post_parent > 0): ?>
+
+						<?php else: ?>
+							
+							<?php // some condition; ?>
+							
+							<?php endif; ?>
