@@ -10,3 +10,7 @@ select {
 .nav-primary ul li:hover > a {
   /* add original properties here */
 }
+
+/* removes auto hyphens */
+.site-content article { word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; }
+.widget-area .widget { word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; }
