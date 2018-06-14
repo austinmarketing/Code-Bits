@@ -34,3 +34,11 @@ function stickyFunction() {
   }
 }
 
+
+/*******************************
+Code to remove section from DOM
+********************************/
+document.getElementById("brand-project-section").remove(); 
+
+    
+
